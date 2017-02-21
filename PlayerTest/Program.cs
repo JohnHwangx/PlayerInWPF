@@ -29,6 +29,7 @@ namespace PlayerTest
 
             var testClass3S=prog.GetTestClass3S();
             prog.ShowTestClass2S(prog.GetTestClass2S(testClass3S));
+			Console.Write("Hello World");
         }
 
         public List<TestClass2> GetTestClass2S()
