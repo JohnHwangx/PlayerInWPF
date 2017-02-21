@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Player4", "Player4\Player4.csproj", "{EA2B3479-6697-44A6-8549-07297C9A5C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerTest", "PlayerTest\PlayerTest.csproj", "{854C47C1-718A-40C4-A4CE-BAC3601ED222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTest", "WPFTest\WPFTest.csproj", "{3B87576E-0963-405D-A280-58F8EF067523}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA2B3479-6697-44A6-8549-07297C9A5C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2B3479-6697-44A6-8549-07297C9A5C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2B3479-6697-44A6-8549-07297C9A5C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2B3479-6697-44A6-8549-07297C9A5C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854C47C1-718A-40C4-A4CE-BAC3601ED222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854C47C1-718A-40C4-A4CE-BAC3601ED222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854C47C1-718A-40C4-A4CE-BAC3601ED222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854C47C1-718A-40C4-A4CE-BAC3601ED222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B87576E-0963-405D-A280-58F8EF067523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B87576E-0963-405D-A280-58F8EF067523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B87576E-0963-405D-A280-58F8EF067523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B87576E-0963-405D-A280-58F8EF067523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

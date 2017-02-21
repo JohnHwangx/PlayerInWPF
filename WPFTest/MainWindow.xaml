@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest"
+        xmlns:heritageTest="clr-namespace:WPFTest.HeritageTest"
+        xmlns:localSlider="clr-namespace:WPFTest.SliderTest"
+         xmlns:localMedia="clr-namespace:WPFTest.MediaPlayer"
+        xmlns:mediaElementView="clr-namespace:WPFTest.MediaElement"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <!--<TextBlock Height="50" Text="{Binding B}"></TextBlock>-->
+        <!--<local:UserControl1 Height="100"></local:UserControl1>-->
+        <!--<TextBlock Height="50" Text="{Binding ControlService.Song}"></TextBlock>
+        <ComboBox ItemsSource="{Binding Tags}"></ComboBox>
+        <Button Height="50" Width="90" Command="{Binding Command}">确定</Button>-->
+        
+        <!--<heritageTest:HeritageUserCtor></heritageTest:HeritageUserCtor>-->
+        
+        <!--<localSlider:Slider></localSlider:Slider>-->
+        <!--<localMedia:MediaPlayer></localMedia:MediaPlayer>-->
+
+        <mediaElementView:MediaElementView></mediaElementView:MediaElementView>
+    </StackPanel>
+</Window>

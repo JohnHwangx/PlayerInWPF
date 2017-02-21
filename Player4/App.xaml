@@ -1,0 +1,18 @@
+﻿<Application x:Class="Player4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Player4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="View/Resource/TagViewsResource.xaml"/>
+                <ResourceDictionary Source="View/Resource/ScrollViewer.xaml"/>
+                <ResourceDictionary Source="View/Resource/ControlViewResource.xaml"/>
+                <ResourceDictionary Source="View/Resource/TitalBarResource.xaml"/>
+                <ResourceDictionary Source="View/Resource/SongListResource.xaml"/>
+                <ResourceDictionary Source="View/Resource/PlayListResource.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
